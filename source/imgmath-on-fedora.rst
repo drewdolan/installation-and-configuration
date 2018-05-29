@@ -8,7 +8,7 @@ Using the Sphinx ``imgmath`` extension on Fedora
 ================================================
 
 This page explains how to configure Sphinx's ``imgmath`` extension
-for Fedora Linux. Users may encounter some frustrating errors but
+for Fedora Linux. Users may encounter some frustrating errors, but
 these are easily handled. Some common errors include:
 
 * Missing LaTeX support:
@@ -36,7 +36,7 @@ to your list of enabled extensions:
 .. code-block:: python
     :emphasize-lines: 6
 
-    # Add any Sphinx extension module names here, as strings. They can be
+    # Add any Sphinx extension module names here as strings. They can be
     # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
     # ones.
     extensions = [
@@ -64,7 +64,7 @@ Install it with the following command::
     sudo dnf install texlive-anyfontsize
 
 
-4. You're Done---try it out!
+4. You're done---try it out!
 ----------------------------
 
 Given the following markup:
