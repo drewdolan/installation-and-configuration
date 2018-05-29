@@ -1,7 +1,7 @@
 
 .. meta::
     :description: Using the Sphinx imgmath extension on Fedora Linux.
-    :keywords: Sphinx, imgmath, Fedora, latex
+    :keywords: Sphinx, imgmath, Fedora, latex, Linux
 
 
 Using the Sphinx ``imgmath`` extension on Fedora
