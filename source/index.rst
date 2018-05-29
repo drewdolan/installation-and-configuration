@@ -7,9 +7,10 @@ Welcome to Installation and Configuration's documentation!
 ==========================================================
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: Contents:
 
+    imgmath-on-fedora.rst
 
 
 Indices and tables
