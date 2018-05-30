@@ -71,6 +71,10 @@ exclude_patterns = []
 #pygments_style = 'sphinx'
 pygments_style = 'default'
 
+# The default language to highlight source code in.
+#highlight_language = 'default'
+highlight_language = 'none'
+
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
