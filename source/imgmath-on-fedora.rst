@@ -5,24 +5,33 @@
 
 
 Using the Sphinx ``imgmath`` extension on Fedora
-================================================
+################################################
 
 This page explains how to configure Sphinx's ``imgmath`` extension
-for Fedora Linux. Users may encounter some frustrating errors, but
-these are easily handled. Some common errors include:
+for Fedora Linux.
 
-* Missing LaTeX support:
+When the dependencies are not properly installed, users can encounter
+some frustrating errors. Some common errors include:
 
-  .. code-block:: none
+.. code-block:: none
 
-      WARNING: LaTeX command 'latex' cannot be run (needed for math display),
-      check the imgmath_latex setting
+    WARNING: LaTeX command 'latex' cannot be run (needed for math display),
+    check the imgmath_latex setting
 
-* Missing the "anyfontsize" LaTeX package:
+.. code-block:: none
 
-  .. code-block:: none
+    ! LaTeX Error: File `anyfontsize.sty' not found.
 
-      ! LaTeX Error: File `anyfontsize.sty' not found.
+
+For proper behavior, install the required packages with the following
+commands::
+
+    sudo dnf install texlive
+    sudo dnf install texlive-anyfontsize
+
+
+Detailed Explanation
+====================
 
 The following steps are known to work for Fedora 27 and Fedora 28.
 
