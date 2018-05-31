@@ -22,6 +22,14 @@ some frustrating errors. Some common errors include::
 
     ! LaTeX Error: File `anyfontsize.sty' not found.
 
+::
+
+    ! LaTeX Error: File `fncychap.sty' not found.
+
+::
+
+    make[1]: latexmk: Command not found
+
 
 For proper behavior, install the required packages with the following
 commands::
