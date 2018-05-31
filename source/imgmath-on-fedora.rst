@@ -34,7 +34,7 @@ some frustrating errors. Some common errors include::
 For proper behavior, install the required packages with the following
 commands::
 
-    $ sudo dnf install texlive
+    $ sudo dnf install latexmk
     $ sudo dnf install python-sphinx-latex
 
 
@@ -62,14 +62,14 @@ to your list of enabled extensions:
     ]
 
 
-2. Install the 'latex' command.
+2. Install the 'latexmk' command.
 -------------------------------
 
-The 'latex' command is provided by the TeX formatting system available
-in Fedora via the 'texlive' package. At the command prompt, install
-this package with the following command::
+The 'latexmk' command is a requirement of the 'make latexpdf' command
+and is available in Fedora via the 'latexmk' package. At the command prompt,
+install this package with the following command::
 
-    $ sudo dnf install texlive
+    $ sudo dnf install latexmk
 
 
 3. Install missing 'anyfontsize.sty'.
