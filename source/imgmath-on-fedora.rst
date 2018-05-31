@@ -27,7 +27,7 @@ For proper behavior, install the required packages with the following
 commands::
 
     $ sudo dnf install texlive
-    $ sudo dnf install texlive-anyfontsize
+    $ sudo dnf install python-sphinx-latex
 
 
 Detailed Explanation
@@ -67,10 +67,11 @@ this package with the following command::
 3. Install missing 'anyfontsize.sty'.
 -------------------------------------
 
-The ``imgmath`` extension also requires the 'anyfontsize' package.
+The ``imgmath`` extension also requires the 'anyfontsize' package, which
+is part of a larger Sphinx package that supports PDF, LaTeX, and HTML.
 Install it with the following command::
 
-    $ sudo dnf install texlive-anyfontsize
+    $ sudo dnf install python-sphinx-latex
 
 
 4. You're done---try it out!
