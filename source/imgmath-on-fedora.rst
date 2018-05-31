@@ -63,7 +63,7 @@ to your list of enabled extensions:
 
 
 2. Install the 'latexmk' command.
--------------------------------
+---------------------------------
 
 The 'latexmk' command is a requirement of the 'make latexpdf' command
 and is available in Fedora via the 'latexmk' package. At the command prompt,
