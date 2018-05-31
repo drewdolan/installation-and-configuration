@@ -36,6 +36,8 @@ commands::
 
     $ sudo dnf install latexmk
     $ sudo dnf install python-sphinx-latex
+    $ sudo dnf install texlive-collection-latexrecommended
+    $ sudo dnf install texlive-collection-latexextra
 
 
 Detailed Explanation
@@ -82,7 +84,18 @@ Install it with the following command::
     $ sudo dnf install python-sphinx-latex
 
 
-4. You're done---try it out!
+4. Install recommended packages.
+--------------------------------
+
+Additional packages are required to support more complex document features and
+are recommended by the official Sphinx docs.  Install them using the
+following commands::
+
+    $ sudo dnf install texlive-collection-latexrecommended
+    $ sudo dnf install texlive-collection-latexextra
+
+
+5. You're done---try it out!
 ----------------------------
 
 Given the following markup:
