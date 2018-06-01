@@ -97,9 +97,8 @@ Install it with the following command::
 5. Install the 'latexmk' command.
 ---------------------------------
 
-The 'latexmk' command is a requirement of the 'make latexpdf' command
-and is available in Fedora via the 'latexmk' package. At the command prompt,
-install this package with the following command::
+'latexmk' is a requirement of the 'make latexpdf' command and is available
+in Fedora via the 'latexmk' package. Install it with the following command::
 
     $ sudo dnf install latexmk
 
